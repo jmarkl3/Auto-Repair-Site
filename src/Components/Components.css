@@ -1,0 +1,88 @@
+.topBar{
+    background-color: #c8272d;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+.topBar div{
+    display: inline-block;
+    margin: 0 10px;
+}
+.topBar img{
+    height: 20px;
+}
+.logoBar{
+    width: calc(100vw - 20px);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+    background-image: url("http://www.dallascarcare.com/images/bg.png");
+}
+.logoBar img{
+    width: 100%;
+    vertical-align: middle;
+}
+.centerLogo{
+    display: inline-block;
+    width: 400px;
+}
+.sideLogo{
+    display: inline-block;
+    width: 100px;
+    line-height: 200px;
+}
+.buttonsBar{
+    width: 100%;
+    background-color: black;
+}
+.buttonsBar div{
+    padding: 10px;
+    transition: 500ms;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttonsBar div:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.partialLine{
+    display: inline-block;
+    height:80%;
+    margin-top: 10%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+.footer{
+    margin-bottom: 40px;
+}
+.footerLink{
+    color: #c8272d;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 30px;
+}
+.line{
+    height: 30px;
+    width: 1px;
+    background-color: black;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footerText{
+    padding: 10px;
+}
+.footerSubText{
+    color: gray;
+}
