@@ -5,9 +5,10 @@ import mapIcon from '../Images/mapIcon.png'
 import certifiedAutoRepair from "../Images/certified-auto-repair.png"
 import logo from "../Images/logo.png"
 import ase from "../Images/ase.png"
+import bricksBackground from "../Images/bricksBackground.png"
 
 function Header() {
-  return (
+  return ( 
     <div className='header'>
         <div className='topBar'>
             <div><img src={clockIcon}/> Mon-Fri: 8am-5:30pm  |  Sat: 8am-3pm</div>
@@ -15,6 +16,9 @@ function Header() {
             <div><img src={mapIcon}/> 10908 Garland Rd, Dallas, TX 75218</div>
         </div>
         <div className='logoBar'>
+            <div className='backgroundImage'>
+                <img src={bricksBackground}></img>
+            </div>
             <div className='sideLogo'>
                 <img src={certifiedAutoRepair}></img>
             </div>

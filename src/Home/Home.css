@@ -8,6 +8,7 @@
     width: 100%;
     min-height: 500px;
     object-fit: cover;
+    background-color: black;
 }
 .bannerTextBox{
     position: absolute;
