@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import './Components/Components.css';
+import Header from './Components/Header';
+import Home from './Home/Home';
+import Footer from './Components/Footer';
+
+/*
+  sample sites
+  https://autowaveinc.com/parts-service/
+  http://www.dallascarcare.com/
+
+  dallas one from Ready Power Market
+*/
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }
