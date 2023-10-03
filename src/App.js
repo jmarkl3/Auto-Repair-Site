@@ -8,9 +8,9 @@ import Footer from './Components/Footer';
 /*
   sample sites
   https://autowaveinc.com/parts-service/
-  http://www.dallascarcare.com/
+  http://www.Ocalacarcare.com/
 
-  dallas one from Ready Power Market
+  Ocala one from Ready Power Market
 */
 
 function App() {

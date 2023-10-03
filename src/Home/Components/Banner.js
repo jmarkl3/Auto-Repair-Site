@@ -12,7 +12,7 @@ function Banner() {
       <div className='bannerTextBox'>
         <h1>Auto Repair You Can Count On!</h1>
         <p>
-          Dalace Car Care is a full service auto repair and auto body facility located in East Dallas Texas.
+          Ocala Car Care is a full service auto repair and auto body facility located in East Ocala Texas.
           It is our goal to get you moving down the road safely at a price you can afford.
         </p>
       </div>
