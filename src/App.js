@@ -10,6 +10,7 @@ import Services from './About/Services';
 import Specials from './Specials/Specials';
 import Reviews from './About/Reviews';
 import Appointment from './Appointment/Appointment';
+import SellYourCar from './SellYourCar/SellYourCar';
 
 /*
   sample sites
@@ -31,7 +32,7 @@ function App() {
             <Route path='/services' element={<Services ></Services>}></Route>                    
             <Route path='/specials' element={<Specials ></Specials>}></Route>                    
             <Route path='/reviews' element={<Reviews ></Reviews>}></Route>                    
-            <Route path='/contact' element={<Appointment ></Appointment>}></Route>                    
+            <Route path='/sell' element={<SellYourCar ></SellYourCar>}></Route>                    
             <Route path='/appointment' element={<Appointment title="Schedule An Appointment" title2="Fill out the form and we will contact you asap to schedule an appointment."></Appointment>}></Route>                    
           </Routes>
         <Footer></Footer>

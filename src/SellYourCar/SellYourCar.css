@@ -1,0 +1,8 @@
+.headerImage{
+    width: 70%;
+    margin: 20px;
+    display: inline-block;
+}
+.headerImage img{
+    width: 100%;
+}

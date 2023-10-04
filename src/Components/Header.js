@@ -36,7 +36,7 @@ function Header() {
             <Link className='buttonsBarButton' to="/services">Auto Repair Services</Link>            
             <Link className='buttonsBarButton' to="/specials">Specials</Link>            
             <Link className='buttonsBarButton' to="/reviews">Reviews</Link>            
-            <Link className='buttonsBarButton' to="/contact">Contact Us</Link>            
+            <Link className='buttonsBarButton' to="/sell">Sell Us Your Car</Link>            
             <Link className='buttonsBarButton' to="/appointment">Request Appointment</Link>            
         </div>
     </div>
