@@ -4,6 +4,7 @@ import EngineIcon from "../../Images/EngineIcon.png"
 import carCheckIcon from "../../Images/carCheckIcon.png"
 import maintenanceIcon from "../../Images/MaintanceIcon.png"
 import bannerImg from "../../Images/banner.jpg"
+import { Link } from 'react-router-dom'
 
 function Banner() {
   return (
@@ -17,22 +18,31 @@ function Banner() {
         </p>
       </div>
       <div className='bannerButtons'>
-        <div className='bannerButton'>
-          <img src={carRepairIcon}></img>
-          <div>Car Repair</div>
-        </div>
-        <div className='bannerButton'>
-          <img src={EngineIcon}></img>
-          <div>Engine Repair</div>
-        </div>
-        <div className='bannerButton'>
-          <img src={carCheckIcon}></img>
-          <div>Certifications</div>
-        </div>
-        <div className='bannerButton'>
-          <img src={maintenanceIcon}></img>
-          <div >Maintance</div>
-        </div>
+        <Link to={"/services"}>
+          <div className='bannerButton'>
+            <img src={carRepairIcon}></img>
+            <div>Car Repair</div>
+          </div>
+        </Link>
+        <Link to={"/services"}>
+          <div className='bannerButton'>
+            <img src={EngineIcon}></img>
+            <div>Engine Repair</div>
+          </div>
+        </Link>
+        <Link to={"/services"}>
+          <div className='bannerButton'>
+            <img src={carCheckIcon}></img>
+            <div>Certifications</div>
+          </div>
+        </Link>
+        <Link to={"/services"}>
+          <div className='bannerButton'>
+            <img src={maintenanceIcon}></img>
+            <div >Maintance</div>
+          </div>
+        </Link>
+
       </div>
     </div>
   )
