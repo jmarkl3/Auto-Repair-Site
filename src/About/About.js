@@ -9,6 +9,7 @@ import axle from "../Images/axle.jpg"
 import battery from "../Images/battery.jpg"
 import belts from "../Images/belts.jpg"
 import brakes from "../Images/brakes.jpg"
+import CustomerReview from '../Home/Components/CustomerReview'
 
 /*
     display state variables for text and images
@@ -19,6 +20,39 @@ function About({startingPage}) {
     const [selectedServiceName, setSelectedServiceName] = useState(startingPage || "About")
     const [image, setImage] = useState(twoMechanics)
     const [content, setContent] = useState(twoMechanics)
+
+    const reviewArray = [
+        {
+            stars: 5,
+            name: "Phillip Terry",
+            review: "Good service, good guys, good mechanics, fair pricing, no gouging or up selling. If they find other things your car needs they're doing their jobs as mechanics and maintenance experts! It's your call whether to get it done. These guys know and love cars, so do I. Been taking our cars there for many years, have confidence in their work and their character."
+        },
+        {
+            stars: 5,
+            name: "Betty Rivera",
+            review: "Very professional, and my vehicle was completed in a timely fashion. They honored their time commitment . I highly recommend them to anyone that is looking for honest, and professional services."
+        },
+        {
+            stars: 5,
+            name: "Kay Keneetit",
+            review: "I came to Dallas from a small Midwestern town, so I was really worried when it came to finding a place to take my car that I could trust. I found that place! The owners at Dallas Car Care are honest and kind; they do not try to sell things you don't need. Their mechanics are just like that, too. If your timing is right, it may be the fastest oil change you ever seen. They keep good records of your service history; I would never take my car anywhere else for an inspection, either. You will be happy with Dallas Car Care, I promise!"
+        },
+        {
+            stars: 5,
+            name: "Jason Kalka",
+            review: "These guys are great, always friendly and knowledgeable, with prompt service."
+        },
+        {
+            stars: 5,
+            name: "J Clubfit",
+            review: "Dave and Rod are the best. They operate a great store. I've trusted them now for years. The are really good people and I get a fair and honest deal. I trust them and they came with trusted referrals."
+        },
+        {
+            stars: 5,
+            name: "Sam Haynes",
+            review: "I've used Dallas Car Care for years and would never take my car to anyone else. Rod and Dave are the best."
+        },        
+    ]
 
     useEffect(()=>{
         createServicesArray()
@@ -87,7 +121,7 @@ function About({startingPage}) {
                 </>
             )
         }
-        if(selectedServiceName === "All Services"){
+        else if(selectedServiceName === "All Services"){
             setImage(null)
             setContent(
                 <>
@@ -98,6 +132,21 @@ function About({startingPage}) {
                                 {name}
                             </h3>
                         </div>
+                    ))}
+                </>
+            )
+        }
+        else if(selectedServiceName === "Reviews"){
+            setImage(null)
+            setContent(
+                <>
+                    {reviewArray.map((reviewData) => (
+                        <CustomerReview
+                            stars={reviewData.stars}                        
+                            name={reviewData.name}                        
+                            review={reviewData.review}                        
+                        ></CustomerReview>
+
                     ))}
                 </>
             )
@@ -232,8 +281,7 @@ function About({startingPage}) {
                 </p>    
                 <AdvantageBlock></AdvantageBlock>            
             </div>
-        </div>
-        
+        </div>    
     </div>
   )
 }

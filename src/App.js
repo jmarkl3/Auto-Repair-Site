@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import About from './About/About';
 import Services from './About/Services';
 import Specials from './Specials/Specials';
+import Reviews from './About/Reviews';
 
 /*
   sample sites
@@ -28,6 +29,7 @@ function App() {
             <Route path='/about' element={<About></About>}></Route>                    
             <Route path='/services' element={<Services ></Services>}></Route>                    
             <Route path='/specials' element={<Specials ></Specials>}></Route>                    
+            <Route path='/reviews' element={<Reviews ></Reviews>}></Route>                    
           </Routes>
         <Footer></Footer>
       </div>

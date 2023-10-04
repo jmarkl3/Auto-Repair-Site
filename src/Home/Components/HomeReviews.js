@@ -2,7 +2,7 @@ import React from 'react'
 import StarRating from './StarRating'
 import CustomerReview from './CustomerReview'
 
-function Reviews() {
+function HomeReviews() {
   return (
     <div className='customerReviews'>
         <h1>Customer Reviews</h1>
@@ -25,4 +25,4 @@ function Reviews() {
   )
 }
 
-export default Reviews
+export default HomeReviews

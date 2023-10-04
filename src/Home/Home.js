@@ -3,7 +3,8 @@ import "./Home.css"
 import Banner from './Components/Banner'
 import About from './Components/HomeAbout'
 import Services from './Components/Services'
-import Reviews from './Components/Reviews'
+import HomeReviews from './Components/HomeReviews'
+
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         <Banner></Banner>
         <About></About>
         <Services></Services>
-        <Reviews></Reviews>
+        <HomeReviews></HomeReviews>
     </div>
   )
 }
