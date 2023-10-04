@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Specials.css"
-import special1 from "../Images/special1.png"
-import special2 from "../Images/special2.png"
+import special1 from "../Images/special1new.png"
+import special2 from "../Images/special2new.png"
 import AdvantageBlock from '../Components/AdvantageBlock'
 
 function Specials() {
