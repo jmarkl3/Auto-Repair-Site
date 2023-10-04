@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/Auto-Repair-Site/static/css/main.37090c92.css",
-    "main.js": "/Auto-Repair-Site/static/js/main.c5018f8e.js",
+    "main.css": "/Auto-Repair-Site/static/css/main.8952c6bf.css",
+    "main.js": "/Auto-Repair-Site/static/js/main.ea94b7b8.js",
     "static/js/787.646ada32.chunk.js": "/Auto-Repair-Site/static/js/787.646ada32.chunk.js",
+    "static/media/junkCars.jpg": "/Auto-Repair-Site/static/media/junkCars.d279bf2c1b03bf925624.jpg",
     "static/media/banner.jpg": "/Auto-Repair-Site/static/media/banner.11ea429dfdab7c6a0cb3.jpg",
     "static/media/twoMechanics.jpg": "/Auto-Repair-Site/static/media/twoMechanics.4982db2285de137beb35.jpg",
+    "static/media/alignment.jpg": "/Auto-Repair-Site/static/media/alignment.3c9d53d2c90ffef7749c.jpg",
+    "static/media/battery.jpg": "/Auto-Repair-Site/static/media/battery.33dcb8572740b98e8434.jpg",
+    "static/media/axle.jpg": "/Auto-Repair-Site/static/media/axle.a52701c947892f9b97b6.jpg",
     "static/media/OcalaAutoCareLogo2.png": "/Auto-Repair-Site/static/media/OcalaAutoCareLogo2.2143545e2432d62c91d6.png",
+    "static/media/brakes.jpg": "/Auto-Repair-Site/static/media/brakes.01c7ba4778ffe942088c.jpg",
+    "static/media/belts.jpg": "/Auto-Repair-Site/static/media/belts.5d6a75e0e610d22f27d8.jpg",
+    "static/media/special1.png": "/Auto-Repair-Site/static/media/special1.5ffe2d950ddc154d7bc8.png",
+    "static/media/autoBody.jpg": "/Auto-Repair-Site/static/media/autoBody.c931da7a3db10dd66433.jpg",
+    "static/media/alternator.jpg": "/Auto-Repair-Site/static/media/alternator.f2dcdc0044d28f75d645.jpg",
+    "static/media/special2.png": "/Auto-Repair-Site/static/media/special2.316424f6a2f59e64d2fe.png",
     "static/media/certified-auto-repair.png": "/Auto-Repair-Site/static/media/certified-auto-repair.08a6e19626b5a08467f0.png",
     "static/media/ase.png": "/Auto-Repair-Site/static/media/ase.038540d09ca9ccd15d3e.png",
     "static/media/logo.svg": "/Auto-Repair-Site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Auto-Repair-Site/index.html",
-    "main.37090c92.css.map": "/Auto-Repair-Site/static/css/main.37090c92.css.map",
-    "main.c5018f8e.js.map": "/Auto-Repair-Site/static/js/main.c5018f8e.js.map",
+    "main.8952c6bf.css.map": "/Auto-Repair-Site/static/css/main.8952c6bf.css.map",
+    "main.ea94b7b8.js.map": "/Auto-Repair-Site/static/js/main.ea94b7b8.js.map",
     "787.646ada32.chunk.js.map": "/Auto-Repair-Site/static/js/787.646ada32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37090c92.css",
-    "static/js/main.c5018f8e.js"
+    "static/css/main.8952c6bf.css",
+    "static/js/main.ea94b7b8.js"
   ]
 }
