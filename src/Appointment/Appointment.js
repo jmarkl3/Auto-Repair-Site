@@ -12,15 +12,15 @@ function Appointment({title, title2}) {
                 <div className='form'>
                     <h3>Contact Information</h3>
                     <div className='inputArea'>
-                        <input defaultValue={"Name"}></input>
-                        <input defaultValue={"Email"}></input>
-                        <input defaultValue={"Phone"}></input>
+                        <input placeholder={"Name"}></input>
+                        <input placeholder={"Email"}></input>
+                        <input placeholder={"Phone"}></input>
                     </div>
                 </div>
                 <div className='form'>
                     <h3>Date and Car Information</h3>
                     <div className='inputArea'>
-                        <input defaultValue={"Drop Off Day"} type='date'></input>
+                        <input placeholder={"Drop Off Day"} type='date'></input>
                         <select>
                             <option>Dropping Off</option>
                             <option>Waiting</option>
@@ -30,10 +30,14 @@ function Appointment({title, title2}) {
                 <div className='form'>
                     <h3>Vehicle</h3>
                     <div className='inputArea'>
-                        <input defaultValue={"Year"}></input>
-                        <input defaultValue={"Make"}></input>
-                        <input defaultValue={"Model"}></input>
+                        <input placeholder={"Year"}></input>
+                        <input placeholder={"Make"}></input>
+                        <input placeholder={"Model"}></input>
                     </div>
+                </div>
+                <div className='submitButtonArea'>
+                    <button>Clear</button>
+                    <button>Submit</button>
                 </div>
             </div>
         </div>

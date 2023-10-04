@@ -124,7 +124,7 @@ function About({startingPage}) {
         else if(selectedServiceName === "All Services"){
             setImage(null)
             setContent(
-                <>
+                <div className='allServicesBox'>
                     {Object.entries(nameImages).map(([name, image]) => (
                         <div className='serviceBlock' onClick={()=>setSelectedServiceName(name)}>
                             <img src={image}></img>
@@ -133,7 +133,7 @@ function About({startingPage}) {
                             </h3>
                         </div>
                     ))}
-                </>
+                </div>
             )
         }
         else if(selectedServiceName === "Reviews"){

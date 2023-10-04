@@ -9,6 +9,7 @@
 .pageInner{
   width: 80%;  
   display: inline-block;
+  text-align: center;
 }
 h2 {
   text-align: center;
