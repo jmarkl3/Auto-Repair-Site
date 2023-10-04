@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Banner from './Components/Banner'
-import About from './Components/About'
+import About from './Components/HomeAbout'
 import Services from './Components/Services'
 import Reviews from './Components/Reviews'
 

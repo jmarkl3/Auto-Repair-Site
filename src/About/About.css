@@ -1,0 +1,55 @@
+
+.aboutSide{
+    width: 200px;
+    float: left;
+}
+.sideButton{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+.sideButton:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+.sideButtonSelected{
+    background-color: #c8272d;
+    color: white;
+}
+.sideButtonSelected:hover{
+    background-color: red;
+    color: white;
+}
+.aboutContent{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 220px;
+}
+.aboutContentImg {
+    float: left;
+    margin: 20px;
+    width: 400px;
+}
+.aboutContent p{
+    text-align: justify;
+}
+.serviceBlock{
+    padding: 10px;    
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 5px 10px black;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+.serviceBlock:hover{
+    background-color: white;
+}
+.serviceBlock img{
+    width: 100%;
+}
+

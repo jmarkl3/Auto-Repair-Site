@@ -1,0 +1,11 @@
+.special{
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+}
+.special img{
+    width: 100%;
+}
+.specialsPage{
+    padding: 100px 0 100px 0;
+}

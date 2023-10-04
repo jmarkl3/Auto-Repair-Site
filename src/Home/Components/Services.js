@@ -57,7 +57,7 @@ function Services() {
           Pre-Purchase Check up
           Radiators
           Suspension, Shocks, Struts
-          Texas State Inspections
+          Florida State Inspections
           Timing Chains and Belts
           Tire Balance, Repair, Rotation
           Towing Available

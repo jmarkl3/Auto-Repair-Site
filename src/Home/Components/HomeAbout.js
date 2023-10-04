@@ -1,7 +1,7 @@
 import React from 'react'
 import twoMechanics from "../../Images/twoMechanics.jpg"
 
-function About() {
+function HomeAbout() {
   return (
     <div className='about'>
       <h2>PROVIDING COMPLETE AUTO REPAIR & MAINTENANCE SINCE 1976</h2>
@@ -22,4 +22,4 @@ function About() {
   )
 }
 
-export default About
+export default HomeAbout

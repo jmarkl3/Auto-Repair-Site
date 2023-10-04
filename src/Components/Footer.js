@@ -11,14 +11,14 @@ function Footer() {
           (214) 324 2323
         </a>
         <a className='footerLink'>
-          10908 Garland Rd, Ocala, TX 75218
+          2437 E Fort King St, Ocala, FL 34471
         </a>
         <a className='footerLink'>
           Warranty
         </a>
       </div>
       <div className='footerText'>
-        Serving: Ocala, North East Ocala, Garland & Mesquite
+        Serving: The Ocala and North Florida area
       </div>
       <div className='footerText footerSubText'>
         Site Developed by Ready Power Market
