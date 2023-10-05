@@ -18,6 +18,39 @@ import SellYourCar from './SellYourCar/SellYourCar';
 http://www.dallascarcare.com/
 
   Ocala one from Ready Power Market
+
+
+  https://www.ionos.co.uk/domaincheckresult
+  name-edu.uk
+  
+  https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+  .academy
+  .de
+  .uk
+  .org.uk
+  .degree
+  .education	
+  .institute
+  .school
+  .software
+  .engineering
+  .study
+  .tech
+  .technology
+  .university
+
+  .education cost
+  $30
+  https://domains.squarespace.com/?channel=bd&subchannel=google-domain&campaign=&subcampaign=&source=google_domain_referral&utm_term=&utm_campaign=
+  $35
+  https://www.godaddy.com/en-uk/domainsearch/find?checkAvail=1&tmskey=&key=dpp_leaf_de&domainToCheck=appleapplease.education&tld=.de
+  $15
+  https://www.ionos.co.uk/domaincheckresult
+
+  List of inspiration sites
+  https://en.wikipedia.org/wiki/Lists_of_American_universities_and_colleges
+  https://en.wikipedia.org/wiki/List_of_universities_in_the_United_Kingdom
+
 */
 
 function App() {

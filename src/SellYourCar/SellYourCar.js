@@ -5,10 +5,7 @@ import "./SellYourCar.css"
 function SellYourCar() {
   return (
     <div className='pageOuter'>
-        <div className='pageInner'>
-            <div className='headerImage'>
-                <img src={junkCars}></img>
-            </div>
+        <div className='pageInner'>      
             <h1>Sell Us Your Car</h1>
             <h3>We are willing to buy cars in any condition.</h3>
             <p>
@@ -16,6 +13,9 @@ function SellYourCar() {
                 Contact us today to get an offer on your used vehicle. We will make a fair offer based on the year, make, model, mileage, and general condition of the car.
                 Market values vary so to get a quote please speak with one of our authorized repersentatives.  
             </p>
+            <div className='headerImage'>
+                <img src={junkCars}></img>
+            </div>
         </div>
     </div>
   )

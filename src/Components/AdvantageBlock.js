@@ -11,7 +11,7 @@ function AdvantageBlock() {
                 <img src={userCheckIcon} className='advantageBoxColumnImg'></img>
             </div>
             <h3>Certified Mechanics</h3>
-            <div>With a team of ASE Certified technicians you can trust us to handle your vehicle with the utmost professionalism, no matter what service we are providing.</div>
+            <p className='padding10'>With a team of ASE Certified technicians you can trust us to handle your vehicle with the utmost professionalism, no matter what service we are providing.</p>
         </div>
         <div className='advantageBoxColumn'>
             <div className='advantageBoxColumnImgContainer'>                    
