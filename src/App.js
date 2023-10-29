@@ -13,6 +13,12 @@ import Appointment from './Appointment/Appointment';
 import SellYourCar from './SellYourCar/SellYourCar';
 
 /*
+
+  Repo:   https://github.com/jmarkl3/Auto-Repair-Site
+  Hosted: https://jmarkl3.github.io/Auto-Repair-Site/
+  Domain: OcalaAutoCare.com
+          https://dcc.godaddy.com/control/portfolio
+
   sample sites
   https://autowaveinc.com/parts-service/
 http://www.dallascarcare.com/
