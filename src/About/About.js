@@ -135,15 +135,20 @@ function About({startingPage}) {
         else if(selectedServiceName === "Contact"){
             setImage(twoMechanics)
             setContent(
-                <>                    
-                    <h3>Contact us today: </h3>
-                    <p>Email</p>
-                    <h3>Contact@OcalaAutoCare.com</h3>
-                    <p>Phone</p>
-                    <h3>(352) 469 - 6049</h3>
-                    <p>Please include some information about how we can help you.</p>
-                    <p>We will get back to you as soon as possible</p>
-                    <p>At Ocala Auto Care there is no job that our skilled mechanics can't handle. We perform everything from routine maintenance such as oil changes, filter replacements and factory scheduled maintenance to complex brake repair, axle replacement, fuel system service and engine repair. When you need auto repair in Ocala for any import or domestic vehicle, or for your business fleet, we have you covered!</p>                
+                <>              
+                    {/* <div className='spacer'></div>    */}
+                    <div className='center'>
+                        <h3>Contact us today: </h3>
+                        <h3>Email</h3>
+                        <a href="mailto:Contact@OcalaAutoCare.com" className='contactLink'>Contact@OcalaAutoCare.com</a>
+                        <h3>Phone</h3>
+                        <a className='contactLink'>(352) 469 - 6049</a>
+                        <p></p>
+                        <div>Please include some information about how we can help you.</div>
+                        <div>We will get back to you as soon as possible</div>
+                        <p></p>
+                        {/* <div>At Ocala Auto Care there is no job that our skilled mechanics can't handle. We perform everything from routine maintenance such as oil changes, filter replacements and factory scheduled maintenance to complex brake repair, axle replacement, fuel system service and engine repair. When you need auto repair in Ocala for any import or domestic vehicle, or for your business fleet, we have you covered!</div>                 */}
+                    </div>   
                 </>
             )
         }
@@ -364,8 +369,8 @@ function About({startingPage}) {
                     >{serviceName}</div>
                 ))}
             </div>
-            <div className='aboutContent'>
-                {image && <img className='aboutContentImg' src={image}></img>}
+            <div className='aboutContent center'>
+                {image && <img className={'aboutContentImg '+(selectedServiceName === "Contact"?" aboutCenteredImage":"")} src={image}></img>}
                 <p className='aboutDescriptionText'>
                     {content}
                 </p>    
