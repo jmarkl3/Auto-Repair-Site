@@ -369,7 +369,7 @@ function About({startingPage}) {
                     >{serviceName}</div>
                 ))}
             </div>
-            <div className='aboutContent center'>
+            <div className='aboutContent'>
                 {image && <img className={'aboutContentImg '+(selectedServiceName === "Contact"?" aboutCenteredImage":"")} src={image}></img>}
                 <p className='aboutDescriptionText'>
                     {content}
