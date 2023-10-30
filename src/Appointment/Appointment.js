@@ -9,6 +9,7 @@ function Appointment({title, title2}) {
             <div className='pageInner'>
                 <h1>{title || "Contact Us"}</h1>
                 <h3>{title2 || "Fill out the form and we will be in touch as soon as possible."}</h3>
+                <h3>Or email us today at Contact@OcalaAutoCare.com</h3>
                 <div className='form'>
                     <h3>Contact Information</h3>
                     <div className='inputArea'>

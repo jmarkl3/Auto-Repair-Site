@@ -13,30 +13,30 @@ function Banner() {
       <div className='bannerTextBox'>
         <h1>Auto Repair You Can Count On!</h1>
         <p>
-          Ocala Car Care is a full service auto repair and auto body facility located in East Ocala Florida.
+          Ocala Auto Care is a full service auto repair and auto body facility located in Ocala Florida.
           It is our goal to get you moving down the road safely at a price you can afford.
         </p>
       </div>
       <div className='bannerButtons'>
-        <Link to={"/services"}>
+        <Link to={"/services/Auto Body Repair"}>
           <div className='bannerButton'>
             <img src={carRepairIcon}></img>
-            <div>Car Repair</div>
+            <div>Auto Body Repair</div>
           </div>
         </Link>
-        <Link to={"/services"}>
+        <Link to={"/services/Check Engine"}>
           <div className='bannerButton'>
             <img src={EngineIcon}></img>
-            <div>Engine Repair</div>
+            <div>Check Engine</div>
           </div>
         </Link>
-        <Link to={"/services"}>
+        <Link to={"/services/Certifications"}>
           <div className='bannerButton'>
             <img src={carCheckIcon}></img>
             <div>Certifications</div>
           </div>
         </Link>
-        <Link to={"/services"}>
+        <Link to={"/services/Maintance"}>
           <div className='bannerButton'>
             <img src={maintenanceIcon}></img>
             <div >Maintance</div>

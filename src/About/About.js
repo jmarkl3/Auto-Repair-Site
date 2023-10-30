@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./About.css"
+import CustomerReview from '../Home/Components/CustomerReview'
 import AdvantageBlock from '../Components/AdvantageBlock'
 import twoMechanics from "../Images/twoMechanics.jpg"
 import alignment from "../Images/alignment.jpg"
@@ -9,7 +10,9 @@ import axle from "../Images/axle.jpg"
 import battery from "../Images/battery.jpg"
 import belts from "../Images/belts.jpg"
 import brakes from "../Images/brakes.jpg"
-import CustomerReview from '../Home/Components/CustomerReview'
+import fuelPumpImage from "../Images/fuelPumpImage.jpg"
+import serviceEngineSoon from "../Images/serviceEngineSoon.jpg"
+import emissionTesting from "../Images/emissoinTesting.jpg"
 
 /*
     display state variables for text and images
@@ -71,6 +74,9 @@ function About({startingPage}) {
         "Battery": battery,
         "Belts": belts,
         "Brakes": brakes,
+        "Maintance": fuelPumpImage,
+        "Check Engine": serviceEngineSoon,
+        "Certifications": emissionTesting,
     }
 
     const [servicesArray, setServicesArray] = useState([])
@@ -84,7 +90,11 @@ function About({startingPage}) {
             Axle Replacement
             Battery
             Belts
-            Brakes`
+            Brakes
+            Maintance
+            Check Engine
+            Certifications
+            `
         //     Check Engine Light
         //     Climate Control/AC/Heat
         //     Diagnostics
@@ -115,9 +125,24 @@ function About({startingPage}) {
             setContent(
                 <>
                     <h3>Dallas Car Care is a full service auto repair and auto body shop in East Dallas serving all domestic and import cars, trucks and SUVs. Locally owned and operated since 1976 Dallas Car Care has become a community favorite for all auto repair and preventative maintenance needs.</h3>
-                    <p>Our ASE certified technicians perform brake repair, engine diagnostics and repair, cooling system repairs and so much more to keep your vehicle running smooth. When you're in need of expert vehicle service in Dallas you can trust the professional and friendly team at Dallas Car Care. Give us a call today at (214) 324-2323 to request a quote or schedule an appointment for quality auto repair in Dallas!</p>
+                    <p>Our ASE certified technicians perform brake repair, engine diagnostics and repair, cooling system repairs and so much more to keep your vehicle running smooth. When you're in need of expert vehicle service in Dallas you can trust the professional and friendly team at Dallas Car Care. Give us a call today at (352) 469 - 6049 to request a quote or schedule an appointment for quality auto repair in Dallas!</p>
                     <p>At Dallas Car Care there is no job that our skilled mechanics can't handle. We perform everything from routine maintenance such as oil changes, filter replacements and factory scheduled maintenance to complex brake repair, axle replacement, fuel system service and engine repair. When you need auto repair in Dallas for any import or domestic vehicle, or for your business fleet, we have you covered!</p>                
-                    <p>If you're car is becoming hard to start, rides a little rough or the power windows are stuck down, bring it in so we can diagnose the problem at our state of the art repair facility. We use the latest technology to identify and repair vehicle issues and ensure that your car is in good health and getting excellent fuel efficiency. All parts and labor from our shop comes with a 12 month/12,000 mile warranty so you can rest assured you're getting excellent service at a great price. Call Dallas Car Care at (214) 324-2323 to schedule an appointment for auto maintenance or auto repair in Dallas today!</p>
+                    <p>If you're car is becoming hard to start, rides a little rough or the power windows are stuck down, bring it in so we can diagnose the problem at our state of the art repair facility. We use the latest technology to identify and repair vehicle issues and ensure that your car is in good health and getting excellent fuel efficiency. All parts and labor from our shop comes with a 12 month/12,000 mile warranty so you can rest assured you're getting excellent service at a great price. Call Dallas Car Care at (352) 469 - 60493 to schedule an appointment for auto maintenance or auto repair in Dallas today!</p>
+                    <h3>Contact us today at Contact@OcalaAutoCare.com</h3>
+                </>
+            )
+        }
+        else if(selectedServiceName === "Contact"){
+            setImage(twoMechanics)
+            setContent(
+                <>                    
+                    <h3>Contact us today at: </h3>
+                    <p>Email</p>
+                    <h3>Contact@OcalaAutoCare.com</h3>
+                    <p>Phone</p>
+                    <h3>(352) 469 - 6049</h3>
+                    <p>We will get back to you as soon as possible</p>
+                    <p>At Dallas Car Care there is no job that our skilled mechanics can't handle. We perform everything from routine maintenance such as oil changes, filter replacements and factory scheduled maintenance to complex brake repair, axle replacement, fuel system service and engine repair. When you need auto repair in Dallas for any import or domestic vehicle, or for your business fleet, we have you covered!</p>                
                 </>
             )
         }
@@ -174,7 +199,7 @@ function About({startingPage}) {
                     <p>We at Dallas Car Care want to be your first and only choice for auto and truck maintenance and repair services. Our friendly staff and professional technicians are here to do everything possible to meet and exceed your car service expectations! We know you must trust your car or truck to get you and your family from place to place safely, and we want you to know that we’ll treat your vehicle with the same care as if it were our own.</p>
                     <h2>Quality replacement parts</h2>
                     <p>Using only the highest quality replacement parts, we take pride in our work because we know our reputation is critical to our success. Please let us know how we’re doing! Feel free to call or stop by at any time and let us know how you feel about the services we’ve done for you. Even though you may first find us as a new customer, we hope you’ll drive away satisfied and happy to refer us to your friends!</p>                    
-                    <p>I want to hear from you if you have any questions, or are not satisfied with any part of the service experience. Please call me at (214) 324-2323 if you need an appointment, or to let me know about the quality of your experience. It’s my goal and responsibility to provide you with the very best service and vehicle care possible!</p>                    
+                    <p>I want to hear from you if you have any questions, or are not satisfied with any part of the service experience. Please call me at (352) 469 - 60493 if you need an appointment, or to let me know about the quality of your experience. It’s my goal and responsibility to provide you with the very best service and vehicle care possible!</p>                    
                     <p>At Dallas Car Care, your complete automotive care center in East Dallas, TX we install only quality replacement parts. Give us a call and let us help keep you safely and economically on the road. We serve Dallas and the surrounding areas.</p>                    
                 </>
             )
@@ -224,7 +249,6 @@ function About({startingPage}) {
                 <p>
                     <h3>Your vehicle may have a single engine drive belt (called a SERPENTINE), or it may use several belts if it’s an older car or truck. These drive belts roll over pulleys which turn and generate rotational energy into each accessory attached to your engine. They typically drive the alternator, the water pump, air conditioning, power steering, and even the power brakes on some larger vehicles.</h3>
                     <h2>Examine your belts at every service opportunity</h2>
-                    <h2>Examine your belts at every service opportunity</h2>
                     <p>If you have a serpentine belt, the loss of this belt means the car will either overheat or lose electrical power quickly, and you may be stranded unexpectedly.  These belts are made of rubber compounds and can stretch, crack, or be damaged by contact with chemicals.  It is imperative to examine your belts at every service opportunity, to be certain that every engine system using that belt can continue to operate effectively.</p>
                     <p>We at Dallas Car Care want to be your first and only choice for auto and truck maintenance and repair services. Our friendly staff and professional technicians are here to do everything possible to meet and exceed your car service expectations! We know you must trust your car or truck to get you and your family from place to place safely, and we want you to know that we’ll treat your vehicle with the same care as if it were our own.</p>
                     <p>Using only the highest quality replacement parts, we take pride in our work because we know our reputation is critical to our success. Please let us know how we’re doing! Feel free to call or stop by at any time and let us know how you feel about the services we’ve done for you. Even though you may first find us as a new customer, we hope you’ll drive away satisfied and happy to refer us to your friends!</p>
@@ -250,12 +274,77 @@ function About({startingPage}) {
                 </>
             )
         }
+        else if(selectedServiceName === "Maintance"){
+            setImage(fuelPumpImage)
+            setContent(
+                <>
+                    <p>
+                        Engine operation management requires the input of a few systems working together. The filtered air of the inductions system, the fuel delivered to each cylinder, and the emissions system all feed information to the ECM (or PCM) and the computer calculates the proper amount of fuel for each running condition. Being a computer, it can measure and correct parameters like the air/fuel ratio thousands of times per minute! It also takes input from the electrical system in determining load and how much timing advance the engine requires for optimum operation.
+                    </p>
+                    <h2>
+                        Regular maintenance & Certificaions
+                    </h2>
+                    <p>
+                        This is why it is so important to have regular maintenance on your vehicle. All of these systems work together to give input to a computer that determines the preferred running condition of the engine, moving the vehicle down the road safely and efficiently.
+                        We can perform a battery of tests To ensure your systems and emissions are all within nominal ranges.
+                    </p>
+                    <p>
+                        Occasionally an ECM will actually malfunction, but this is something that can be discovered during diagnostic testing. Vehicles have a variety of ECMs available, so it’s important to have one of our service advisors find the right unit for you.
+                    </p>
+                </>
+            )
+        }
+        else if(selectedServiceName === "Check Engine"){
+            setImage(serviceEngineSoon)
+            setContent(
+                <>
+                    <p>
+                        Your “Check Engine Light” is simply a warning light that has received information from a sensor connected to your vehicle’s ECM, or “engine control module”. It can be an indicator of needed maintenance, or it could also be warning you of a major component failure.
+                        Each sensor connected to the ECM will register a code within the ECM that tells technicians the nature of the item needing service or replacement. While reading these codes is a fairly simple operation, it requires very expensive equipment, and many years of experience to understand exactly what is causing the trouble code to appear.                    
+                    </p>
+                    <h2>
+                        Serious and expensive damage
+                    </h2>
+                    <p>
+                        This is why it is so important to have regular maintenance on your vehicle. All of these systems work together to give input to a computer that determines the preferred running condition of the engine, moving the vehicle down the road safely and efficiently.
+                        We can perform a battery of tests To ensure your systems and emissions are all within nominal ranges.
+                    </p>
+                    <p>
+                        Occasionally an ECM will actually malfunction, but this is something that can be discovered during diagnostic testing. Vehicles have a variety of ECMs available, so it’s important to have one of our service advisors find the right unit for you.
+                    </p>
+                </>
+            )
+        }
+        else if(selectedServiceName === "Certifications"){
+            setImage(emissionTesting)
+            setContent(
+                <>
+                    <h2>
+                        Smog Tests and Emission Checks in Florida
+                    </h2>
+                    <p>
+                        If you own a car, naturally you have to be concerned about the pollution it emits. You want the convenience of driving place to place, but you also don’t want to be polluting the air, and destroying the ozone layer, do you? That’s why states initially set up smog and emissions protocols, to ensure that Florida’s drivers weren’t adversely affecting the near-tropical climate and environment that Florida is famous for.                    </p>
+                    <h2>
+                        Florida Smog and Emissions Laws
+                    </h2>
+                    <p>
+                        For a few years, Florida had auto emissions test requirements, but they were eventually abolished. This is (presumably) due to several factors. First, it was a hot-button political issue within the state, for both Florida residents and legislators. And second, there were several Florida counties that allegedly offered such clean air readings that the tests were rendered obsolete. If you just recently got your Florida drivers license, though, you have nothing to worry about.
+                    </p>
+                    <h2>
+                        Low Emission Rewards in Florida
+                    </h2>
+                    <p>
+                        Even though there are no more mandatory smog checks in Florida, the state does offer rewards to drivers who opt for hybrid cars, and other environmentally friendly vehicles. If you purchase a vehicle that is certified by the Environmental Protection Agency (EPA) as “Inherently Low Emissions Vehicle” (ILEV), you are allowed to drive in the High-Occupancy Vehicle (HOV) lane at all times, regardless of how many passengers you have in your car.
+                    </p>
+                </>
+            )
+        }
         else{
             setContent(
                 <>
-                    <p>Our ASE certified technicians perform brake repair, engine diagnostics and repair, cooling system repairs and so much more to keep your vehicle running smooth. When you're in need of expert vehicle service in Dallas you can trust the professional and friendly team at Dallas Car Care. Give us a call today at (214) 324-2323 to request a quote or schedule an appointment for quality auto repair in Dallas!</p>
+                    <p>Our ASE certified technicians perform brake repair, engine diagnostics and repair, cooling system repairs and so much more to keep your vehicle running smooth. When you're in need of expert vehicle service in Dallas you can trust the professional and friendly team at Dallas Car Care. Give us a call today at (352) 469 - 60493 to request a quote or schedule an appointment for quality auto repair in Dallas!</p>
                     <p>At Dallas Car Care there is no job that our skilled mechanics can't handle. We perform everything from routine maintenance such as oil changes, filter replacements and factory scheduled maintenance to complex brake repair, axle replacement, fuel system service and engine repair. When you need auto repair in Dallas for any import or domestic vehicle, or for your business fleet, we have you covered!</p>                
-                    <p>If you're car is becoming hard to start, rides a little rough or the power windows are stuck down, bring it in so we can diagnose the problem at our state of the art repair facility. We use the latest technology to identify and repair vehicle issues and ensure that your car is in good health and getting excellent fuel efficiency. All parts and labor from our shop comes with a 12 month/12,000 mile warranty so you can rest assured you're getting excellent service at a great price. Call Dallas Car Care at (214) 324-2323 to schedule an appointment for auto maintenance or auto repair in Dallas today!</p>
+                    <p>If you're car is becoming hard to start, rides a little rough or the power windows are stuck down, bring it in so we can diagnose the problem at our state of the art repair facility. We use the latest technology to identify and repair vehicle issues and ensure that your car is in good health and getting excellent fuel efficiency. All parts and labor from our shop comes with a 12 month/12,000 mile warranty so you can rest assured you're getting excellent service at a great price. Call Dallas Car Care at (352) 469 - 60493 to schedule an appointment for auto maintenance or auto repair in Dallas today!</p>
                 </>
             )
         }

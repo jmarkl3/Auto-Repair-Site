@@ -6,3 +6,9 @@
 .headerImage img{
     width: 100%;
 }
+.sellPageP{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}

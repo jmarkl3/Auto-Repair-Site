@@ -21,7 +21,7 @@ import SellYourCar from './SellYourCar/SellYourCar';
 
   sample sites
   https://autowaveinc.com/parts-service/
-http://www.dallascarcare.com/
+  http://www.dallascarcare.com/
 
   Ocala one from Ready Power Market
 
@@ -68,6 +68,7 @@ function App() {
             <Route path='/' element={<Home></Home>}></Route>                    
             <Route path='/home' element={<Home></Home>}></Route>                    
             <Route path='/about' element={<About></About>}></Route>                    
+            <Route path='/services/:serviceName' element={<Services ></Services>}></Route>                    
             <Route path='/services' element={<Services ></Services>}></Route>                    
             <Route path='/specials' element={<Specials ></Specials>}></Route>                    
             <Route path='/reviews' element={<Reviews ></Reviews>}></Route>                    
