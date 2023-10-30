@@ -19,7 +19,7 @@ function AdvantageBlock() {
             </div>
             <div>
                 <h3>Complete Auto Repair</h3>
-                <div>Regardless of the model and make of your vehicle, our experienced Dallas Auto Repair Shop can provide it with a full garage service.</div>
+                <div>Regardless of the model and make of your vehicle, our experienced technicians can provide it with a full garage service.</div>
 
             </div>
         </div>
@@ -28,7 +28,7 @@ function AdvantageBlock() {
                 <img src={toolsIcon} className='advantageBoxColumnImg'></img>
             </div>
             <h3>Domestic & Foreign</h3>
-            <div>We are a full service and performance auto repair facility located in Dallas, TX. We service foreign, domestic & light trucks.</div>
+            <div>We are a full service and performance auto repair facility located in Ocala, FL. We service foreign, domestic & light trucks.</div>
         </div>        
     </div>
   )
